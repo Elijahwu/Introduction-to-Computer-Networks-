@@ -49,8 +49,11 @@ pip install -r requirements.txt
 
 ## record
 按下視訊上方的 record 鍵，即可開始錄影
+
 按下視訊上方的 Stop 鍵，則結束錄影
+
 旁邊會跳出影片的下載連結
+
 server 端也會保留 此影片
 
 ## 執行環境
