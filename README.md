@@ -44,27 +44,14 @@ pip install -r requirements.txt
 點選照片下方的齒輪，可以上傳自己的照片
 ![alt tag](http://i.imgur.com/316KdGN.jpg)
 
-## db - SQLite
+## video streaming
+簡單的串流視訊
 
-![alt tag](http://i.imgur.com/LEuKo7o.jpg)
-![alt tag](http://i.imgur.com/isOb07Z.jpg)
-![alt tag](http://i.imgur.com/fQyhQpn.jpg)
-
-## Deploy
-
-佈署空間 - [heroku](https://dashboard.heroku.com/)
-
-請參考 [flask-socketio gunicorn-web-server](https://flask-socketio.readthedocs.io/en/latest/#gunicorn-web-server)
-
-建立一個名稱為 **Procfile** 的檔案
-
-在檔案內輸入
-
-```cmd
-web: gunicorn -k eventlet app:app
-```
-
-heroku Deployment method : Heroku-Git , GitHub , Dropbox
+## record
+按下視訊上方的 record 鍵，即可開始錄影
+按下視訊上方的 Stop 鍵，則結束錄影
+旁邊會跳出影片的下載連結
+server 端也會保留 此影片
 
 ## 執行環境
 
